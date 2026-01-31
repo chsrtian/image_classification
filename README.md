@@ -36,7 +36,7 @@ I used this dataset to observe how well a neural network can classify clothing i
 
 ### Why do we normalize image pixel values before training?
 
-In my experiment, I normalized the image pixel values by dividing them by **255** so that all values are within the range of **0 to 1**. This helped make the training process more stable and faster.
+In my observation, We normalized the image pixel values by dividing them by **255** so that all values are within the range of **0 to 1**. This helped make the training process more stable and faster.
 
 Normalization allowed the model to:
 - Update its weights more efficiently
@@ -54,7 +54,6 @@ Normalization allowed the model to:
 | **Dense (Hidden)** | Uses ReLU activation to learn important features from the images |
 | **Dense (Output)** | Contains 10 neurons corresponding to the 10 clothing categories in the Fashion MNIST dataset |
 
-When I added another hidden layer, the model became deeper but did not significantly improve performance.
 
 ---
 
